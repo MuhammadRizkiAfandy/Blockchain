@@ -1,3 +1,13 @@
+## Contracts
+![image](https://user-images.githubusercontent.com/100683960/178107352-7823e7f7-7614-4188-84cb-bfb292eff855.png)
+
+## Deploy
+![image](https://user-images.githubusercontent.com/100683960/178107360-08600cae-64d4-4072-a410-d58da9a1436e.png)
+
+## Testing & Scripts
+![image](https://user-images.githubusercontent.com/100683960/178107372-4ce34b57-52e8-4474-aa17-5a9fcf6a22e5.png)
+
+
 # Hardhat Upgrades
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
