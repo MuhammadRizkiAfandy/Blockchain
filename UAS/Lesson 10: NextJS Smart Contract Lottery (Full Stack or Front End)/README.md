@@ -1,6 +1,6 @@
 Hardhat Fund Me
 •	Getting Started
-  •	Requirements
+•	Requirements
     1.	git
     You'll know you did it right if you can run git --version and you see a response like git version x.x.x
     2.	Nodejs
