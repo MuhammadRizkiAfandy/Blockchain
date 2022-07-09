@@ -1,32 +1,5 @@
 # Hardhat Fund Me
 
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
-
-*[⌨️ (10:00:48) Lesson 7: Hardhat Fund Me](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=36048s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
-- [Hardhat Fund Me](#hardhat-fund-me)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-  - [Scripts](#scripts)
-  - [Estimate gas](#estimate-gas)
-    - [Estimate gas cost in USD](#estimate-gas-cost-in-usd)
-  - [Verify on etherscan](#verify-on-etherscan)
-- [Linting](#linting)
-- [Formatting](#formatting)
-- [Thank you!](#thank-you)
-
-This project is apart of the Hardhat FreeCodeCamp video.
-
-Video coming soon...
 
 # Getting Started
 
@@ -49,6 +22,7 @@ git clone https://github.com/PatrickAlphaC/hardhat-fund-me-fcc
 cd hardhat-fund-me-fcc
 yarn
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106527-8566d0a0-8c11-48d4-a0ca-1c523201ea95.png)
 
 ## Typescript
 
@@ -57,6 +31,7 @@ For the typescript edition, run:
 ```
 git checkout typescript
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106564-c36fc552-874c-429e-bef9-bca7a6c0a9f1.png)
 
 ### Optional Gitpod
 
@@ -71,18 +46,23 @@ Deploy:
 ```
 yarn hardhat deploy
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106601-818b8191-4586-4fbe-8c4b-57b70cbf59e5.png)
+
 
 ## Testing
 
 ```
 yarn hardhat test
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106608-67c49d09-e172-4e97-951e-68a0272a6966.png)
+
 
 ### Test Coverage
 
 ```
 yarn hardhat coverage
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106621-92e44ebb-7645-4cd6-9ab2-302b225b953e.png)
 
 
 # Deployment to a testnet or mainnet
@@ -104,6 +84,8 @@ Head over to [faucets.chain.link](https://faucets.chain.link/) and get some tesn
 ```
 yarn hardhat deploy --network kovan
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106633-a20ee807-afd0-4352-99cb-38b22659a7fb.png)
+
 
 ## Scripts
 
@@ -117,6 +99,8 @@ or
 ```
 yarn hardhat run scripts/withdraw.js
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106638-e4277588-06bd-451f-ab52-e2c00db5b8ee.png)
+
 
 ## Estimate gas
 
@@ -125,6 +109,8 @@ You can estimate how much gas things cost by running:
 ```
 yarn hardhat test
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106666-85b60169-b5cc-47fd-bc67-df5b6f6fc59b.png)
+
 
 And you'll see and output file called `gas-report.txt`
 
@@ -146,6 +132,8 @@ However, you can manual verify with:
 ```
 yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106687-5a9a17c7-8817-41c8-a18c-433ea02d020d.png)
+
 
 # Linting
 
@@ -157,21 +145,16 @@ or, to fix:
 ```
 yarn lint:fix
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106696-230feee9-180b-4c7c-b319-3bd25fdb66c7.png)
+
 
 # Formatting 
 
 ```
 yarn format
 ```
+![image](https://user-images.githubusercontent.com/101384498/178106702-27df6461-50ea-43ac-88d9-2c0f057af94f.png)
+
 
 
 # Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
