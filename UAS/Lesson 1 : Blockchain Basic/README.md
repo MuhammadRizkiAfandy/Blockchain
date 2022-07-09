@@ -1,10 +1,10 @@
-#Lesson 1 : Blockchain basic
+# Lesson 1 : Blockchain basic
 
-##What is Blockchain?
+## What is Blockchain?
 
-###Satoshi Nakamoto
+### Satoshi Nakamoto
 Satoshi Nakamoto adalah nama yang digunakan oleh orang atau orang yang diduga sebagai pseudonim  yang mengembangkan bitcoin , menulis buku putih bitcoin , dan membuat serta menerapkan implementasi referensi asli bitcoin . 
-###Pengembangan bitcoin
+### Pengembangan bitcoin
 Nakamoto menyatakan bahwa penulisan kode untuk bitcoin dimulai pada tahun 2007. [10] Pada tanggal 18 Agustus 2008, dia atau rekannya mendaftarkan nama domain bitcoin.org, [11] dan membuat situs web di alamat tersebut. Pada tanggal 31 Oktober, Nakamoto menerbitkan buku putih di milis kriptografi di metzdowd.com yang menjelaskan tentang cryptocurrency digital , berjudul "Bitcoin: A Peer-to-Peer Electronic Cash System". Nakamoto terus berkolaborasi dengan pengembang lain pada perangkat lunak bitcoin hingga pertengahan 2010, membuat semua modifikasi pada kode sumbernya sendiri. Dia kemudian memberikan kendali atas repositori kode sumber dan kunci peringatan jaringan kepada Gavin Andresen , [22] mentransfer beberapa domain terkait ke berbagai anggota terkemuka komunitas bitcoin, dan menghentikan keterlibatannya yang diakui dalam proyek tersebut. Pada tahun 2016, Financial Times mengatakan bahwa Nakamoto mungkin adalah sekelompok orang, menyebutkan Hal Finney, Nick Szabo, dan Adam Back sebagai anggota potensial. [73] Pada tahun 2020, saluran YouTube Barely Sociable mengklaim bahwa Adam Back, penemu bitcoin pendahulunya Hashcash , adalah Nakamoto. [74] Kembali kemudian membantah ini. [75]
 
 Elon Musk membantah dia adalah Nakamoto dalam tweet pada 28 November 2017, menanggapi spekulasi minggu sebelumnya di sebuah posting media.com oleh mantan karyawan magang SpaceX . Pada 2019, jurnalis Evan Ratliff mengklaim pengedar narkoba Paul Le Roux bisa menjadi Nakamoto. Pada tahun 2021 pengembang Evan Hatch mengusulkan cypherpunk Len Sassaman dari COSIC sebagai kandidat yang memungkinkan
