@@ -1,30 +1,5 @@
 # Hardhat Smartcontract Lottery (Raffle) FCC
 
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
-
-*[⌨️ (13:41:02) Lesson 9: Hardhat Smart Contract Lottery](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=49262s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
-- [Hardhat Smartcontract Lottery (Raffle) FCC](#hardhat-smartcontract-lottery-raffle-fcc)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-- [Useage](#useage)
-  - [Testing](#testing)
-    - [Test Coverage](#test-coverage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-    - [Estimate gas cost in USD](#estimate-gas-cost-in-usd)
-  - [Verify on etherscan](#verify-on-etherscan)
-    - [Typescript differences](#typescript-differences)
-- [Linting](#linting)
-- [Thank you!](#thank-you)
-
-This project is apart of the Hardhat FreeCodeCamp video.
-
-Video coming soon...
-
 # Getting Started
 
 ## Requirements
@@ -46,6 +21,8 @@ git clone https://github.com/PatrickAlphaC/hardhat-smartcontract-lottery-fcc
 cd hardhat-smartcontract-lottery-fcc
 yarn
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107035-2ac20dbd-2868-4615-bb2f-06f4721825cd.png)
+
 
 ## Typescript
 
@@ -55,6 +32,8 @@ If you want to get to typescript and you cloned the javascript version, just run
 git checkout typescript
 yarn 
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107040-1e0d4447-0ab8-4207-9bf4-fa078d457436.png)
+
 
 # Useage
 
@@ -63,18 +42,24 @@ Deploy:
 ```
 yarn hardhat deploy
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107049-4b1c50a3-d9ad-4e61-b3e8-493d03ef0f40.png)
+
 
 ## Testing
 
 ```
 yarn hardhat test
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107061-3a2a76ef-afd1-4dc9-bb8d-911d2cc8e7c5.png)
+
 
 ### Test Coverage
 
 ```
 yarn hardhat coverage
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107073-810e3392-94c0-475d-842a-0948ad98e532.png)
+
 
 
 
@@ -131,6 +116,8 @@ You're contract is now setup to be a tamper proof autonomous verifiably random l
 ```
 yarn hardhat run scripts/enter.js --network rinkeby
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107090-dde3df7d-6706-4289-9861-767ee3f71365.png)
+
 
 ### Estimate gas cost in USD
 
@@ -151,6 +138,8 @@ However, you can manual verify with:
 ```
 yarn hardhat verify --constructor-args arguments.js DEPLOYED_CONTRACT_ADDRESS
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107100-7f712bea-d194-4dda-a96a-e593e80589ac.png)
+
 
 ### Typescript differences
 1. `.js` files are now `.ts`
@@ -172,14 +161,7 @@ or, to fix:
 ```
 yarn lint:fix
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107108-f6cf5e2f-052a-4591-b161-ea4c3c156f15.png)
+
 
 # Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
