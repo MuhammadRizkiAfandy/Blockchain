@@ -1,17 +1,4 @@
 
- - [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Typescript (Optional)](#typescript-optional)
-    - [Optional Gitpod](#optional-gitpod)
-- [Usage](#usage)
-- [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-  - [Verify on etherscan](#verify-on-etherscan)
-- [Thank you!](#thank-you)
-
 # Getting Started
 
 ## Requirements
@@ -33,12 +20,16 @@ git clone https://github.com/PatrickAlphaC/hardhat-erc20-fcc
 cd hardhat-erc20-fcc
 yarn
 ```
+![image](https://user-images.githubusercontent.com/101384498/178108051-7b3c72cd-7bc0-488b-bd03-f35e6e8a415f.png)
+
 
 ### Typescript (Optional)
 
 ```
 git checkout typescript
 ```
+![image](https://user-images.githubusercontent.com/101384498/178108060-65c610a0-1365-4ec6-8062-e9a0d275cc8b.png)
+
 
 ### Optional Gitpod
 
@@ -54,6 +45,8 @@ Deploy:
 ```
 yarn hardhat deploy
 ```
+![image](https://user-images.githubusercontent.com/101384498/178108072-e764e883-fa7e-4ef7-889a-95110990a959.png)
+
 
 # Deployment to a testnet or mainnet
 
@@ -74,6 +67,8 @@ Head over to [faucets.chain.link](https://faucets.chain.link/) and get some tesn
 ```
 yarn hardhat deploy --network kovan
 ```
+![image](https://user-images.githubusercontent.com/101384498/178108085-19039030-13ae-4f1d-9bc4-998f90bb7b1c.png)
+
 
 ## Verify on etherscan
 
@@ -86,16 +81,7 @@ However, you can manual verify with:
 ```
 yarn hardhat verify --constructor-args arguments DEPLOYED_CONTRACT_ADDRESS
 ```
+![image](https://user-images.githubusercontent.com/101384498/178108095-a224b791-98ee-4195-b65e-499bae1d2cee.png)
+
 
 # Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
-
-
