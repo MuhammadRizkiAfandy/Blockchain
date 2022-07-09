@@ -8,35 +8,6 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smartcontractkit/hardhat-starter-kit)
 
-- [Chainlink Hardhat Starter Kit](#chainlink-hardhat-starter-kit)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-    - [Typescript](#typescript)
-- [Usage](#usage)
-  - [Deploying Contracts](#deploying-contracts)
-  - [Run a Local Network](#run-a-local-network)
-  - [Using a Testnet or Live Network (like Mainnet or Polygon)](#using-a-testnet-or-live-network-like-mainnet-or-polygon)
-    - [Rinkeby Ethereum Testnet Setup](#rinkeby-ethereum-testnet-setup)
-  - [Forking](#forking)
-  - [Auto-Funding](#auto-funding)
-- [Test](#test)
-- [Interacting with Deployed Contracts](#interacting-with-deployed-contracts)
-  - [Chainlink Price Feeds](#chainlink-price-feeds)
-  - [Request & Receive Data](#request--receive-data)
-  - [VRF Get a random number](#vrf-get-a-random-number)
-  - [Keepers](#keepers)
-  - [Verify on Etherscan](#verify-on-etherscan)
-- [View Contracts Size](#view-contracts-size)
-- [Linting](#linting)
-- [Code Formating](#code-formating)
-- [Estimaging Gas](#estimaging-gas)
-- [Code Coverage](#code-coverage)
-- [Fuzzing](#fuzzing)
-- [Contributing](#contributing)
-- [Thank You!](#thank-you)
-  - [Resources](#resources)
-
 # Chainlink Hardhat Starter Kit
  Implementation of the following 4 Chainlink features using the [Hardhat](https://hardhat.org/) development environment:
  - [Chainlink Price Feeds](https://docs.chain.link/docs/using-chainlink-reference-contracts)
@@ -82,6 +53,7 @@ or
 npm i
 ```
 
+
 2. You can now do stuff!
 
 ```
@@ -93,6 +65,8 @@ or
 ```
 npm test
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107558-5590a581-db4a-411e-9e4a-9bd141e9cb1d.png)
+
 
 ### Typescript
 
@@ -102,6 +76,8 @@ To use typescript, run:
 git checkout typescript
 yarn
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107601-d0da69e4-48e8-4eac-84cf-8a0d503f008c.png)
+
 
 # Usage
 
@@ -112,6 +88,9 @@ If you run `yarn hardhat --help` you'll get an output of all the tasks you can r
 ```
 yarn hardhat deploy
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107729-ed0ff637-140c-4181-9734-646fd5047509.png)
+
+
 
 This will deploy your contracts to a local network. Additionally, if on a local network, it will deploy mock Chainlink contracts for you to interact with. If you'd like to interact with your deployed contracts, skip down to [Interacting with Deployed Contracts](#interacting-with-deployed-contracts).
 
@@ -122,6 +101,7 @@ One of the best ways to test and interact with smart contracts is with a local n
 ```
 yarn hardhat node
 ```
+
 
 You'll get a local blockchain, private keys, contracts deployed (from the `deploy` folder scripts), and an endpoint to potentially add to an EVM wallet. 
 
@@ -202,6 +182,9 @@ To run staging testnet tests
 ```
 yarn hardhat test --network rinkeby
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107826-436d2cd1-9f5b-4220-bb35-282539804961.png)
+
+
 
 ## Forking 
  
@@ -253,6 +236,8 @@ or
 ```
 yarn hardhat test --network rinkeby
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107854-28e0266a-596f-4da4-ac7d-4abf6722a630.png)
+
 
 ## Performance optimizations
 
@@ -278,6 +263,8 @@ The Price Feeds consumer contract has one task, to read the latest price of a sp
 ```bash
 yarn hardhat read-price-feed --contract insert-contract-address-here --network network
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107875-407be229-a04f-4f1a-b956-795b10ef61f1.png)
+
 
 ## Request & Receive Data
 The APIConsumer contract has two tasks, one to request external data based on a set of parameters, and one to check to see what the result of the data request is. This contract needs to be funded with link first:
@@ -296,6 +283,8 @@ Once you have successfully made a request for external data, you can see the res
 ```bash
 yarn hardhat read-data --contract insert-contract-address-here --network network
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107882-b09b872d-c413-4450-a5a3-2216fd370683.png)
+
 
 
 ## VRF Get a random number
@@ -322,6 +311,8 @@ Once you have successfully made a request for a random number, you can see the r
 ```bash
 yarn hardhat read-random-number --contract insert-contract-address-here --network network
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107906-32071175-5fdc-4742-a3bc-c6d61a3c228f.png)
+
 
 ## Keepers
 The KeepersCounter contract is a simple Chainlink Keepers enabled contract that simply maintains a counter variable that gets incremented each time the performUpkeep task is performed by a Chainlink Keeper. Once the contract is deployed, you should head to [https://keepers.chain.link/](https://keepers.chain.link/) to register it for upkeeps, then you can use the task below to view the counter variable that gets incremeneted by Chainlink Keepers
@@ -330,6 +321,8 @@ The KeepersCounter contract is a simple Chainlink Keepers enabled contract that 
 ```bash
 yarn hardhat read-keepers-counter --contract insert-contract-address-here --network network
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107922-60691e7f-0631-4560-be91-dc9e52b2cd0a.png)
+
 
 ## Verify on Etherscan
 
@@ -343,12 +336,16 @@ example:
 ```
 yarn hardhat verify --network rinkeby 0x9279791897f112a41FfDa267ff7DbBC46b96c296 "0x9326BFA02ADD2366b30bacB125260Af641031331"
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107934-8380a455-8fe8-4036-9786-7d2d093835bf.png)
+
 
 # View Contracts Size
 
 ```
 yarn run hardhat size-contracts
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107942-840add09-aa97-4657-8e49-e875c527accd.png)
+
 
 # Linting
 
@@ -357,6 +354,8 @@ This will [lint](https://stackoverflow.com/questions/8503559/what-is-linting) yo
 ```
 yarn lint:fix
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107953-93db02da-27a1-417f-97d8-ba9092f0195f.png)
+
 
 # Code Formating
 
@@ -365,6 +364,8 @@ This will format both your javascript and solidity to look nicer.
 ```
 yarn format
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107957-aedb1529-66ac-4c5d-9abe-7848c6cced9f.png)
+
 
 # Estimaging Gas
 
@@ -373,6 +374,8 @@ To estimate gas, just set a `REPORT_GAS` environment variable to true, and then 
 ```
 yarn hardhat test
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107966-d2dd3570-e3d5-4b43-96fa-562e2be2b110.png)
+
 
 If you'd like to see the gas prices in USD or other currency, add a `COINMARKETCAP_API_KEY` from [Coinmarketcap](https://coinmarketcap.com/api/documentation/v1/).
 
@@ -382,6 +385,8 @@ To see a measure in percent of the degree to which the smart contract source cod
 ```
 yarn coverage
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107974-5064e528-8426-4036-a67f-de8275a016d2.png)
+
 
 # Fuzzing
 
@@ -404,14 +409,7 @@ To exit Echidna type
 ```bash
 exit
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107979-6c2eb52a-99e2-4af2-bc82-08939b9a430e.png)
 
-# Contributing
-
-Contributions are always welcome! Open a PR or an issue!
 
 # Thank You!
-
-## Resources
-
-- [Chainlink Documentation](https://docs.chain.link/)
-- [Hardhat Documentation](https://hardhat.org/getting-started/)
