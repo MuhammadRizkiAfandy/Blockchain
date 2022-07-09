@@ -4,7 +4,7 @@
 Solidity dapat di jalankan pada Remix.org yakni  IDE Online untuk Solidity , remix sendiri hanya digunakan untuk membuat dan mencoba menjalankan Smart Contract pada test server. Setelah Smart contract bisa di jalankan di remix, makadapat di lanjutkanmenggunakan visual studio code untuk menambahkan front end seperti react sebagai tampilan depan dari smart contract itu sendiri dan menggunakan web3.js sebagai penghubungnya
 Solidity adalah bahasa tingkat tinggi berorientasi objek untuk mengimplementasikan kontrak pintar. Kontrak pintar adalah program yang mengatur perilaku akun dalam negara Ethereum. Solidity adalah bahasa kurung kurawal yang dirancang untuk menargetkan Ethereum Virtual Machine (EVM). Itu dipengaruhi oleh C++, Python dan JavaScript. Anda dapat menemukan detail lebih lanjut tentang bahasa mana yang menjadi inspirasi Solidity di bagian pengaruh bahasa. Soliditas diketik secara statis, mendukung pewarisan, perpustakaan, dan tipe kompleks yang ditentukan pengguna di antara fitur-fitur lainnya. Dengan Solidity, Anda dapat membuat kontrak untuk penggunaan seperti voting, crowdfunding, pelelangan buta, dan dompet multi-tanda tangan.
 ### Tipe data solidity
-https://docs.soliditylang.org/en/latest/types.html
+- [TIPE DATA SOLIDITY](https://docs.soliditylang.org/en/latest/types.html)
 ### Basic Solidity: Functions
 •	Fungsi
 •	Menyebarkan Kontrak
