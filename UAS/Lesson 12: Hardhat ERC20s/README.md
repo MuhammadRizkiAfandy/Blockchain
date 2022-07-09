@@ -1,5 +1,5 @@
 
-# Getting Started
+# Hardhat ERC20s
 
 ## Requirements
 
