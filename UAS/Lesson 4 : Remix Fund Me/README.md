@@ -387,18 +387,27 @@ Dimungkinkan untuk mendapatkan alamat perpustakaan dengan mengonversi jenis perp
 ### Bagaimana cara mengirim Eter?
 Anda dapat mengirim Eter ke kontrak lain dengan
 •	transfer (2300 gas, throws error)
+
 •	send (2300 gas, returns bool)
+
 •	call (forward all gas or set gas, returns bool)
+
 ### Bagaimana cara menerima Eter?
 Kontrak yang menerima Eter harus memiliki setidaknya salah satu fungsi di bawah ini. 
+
 •	receive() external payable
+
 •	fallback() external payable
+
 receive() dipanggil jika msg.data kosong, jika tidak, fallback() dipanggil.
 ### Metode mana yang harus Anda gunakan?
 panggilan dalam kombinasi dengan penjaga masuk kembali adalah metode yang disarankan untuk digunakan setelah Desember 2019.
 Jaga agar tidak masuk kembali dengan
+
 •	membuat semua perubahan status sebelum memanggil kontrak lain
+
 •	menggunakan pengubah penjaga masuk kembali
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -530,11 +539,17 @@ contract E is X, Y {
 Dalam bahasa pemrograman apa pun, operator memainkan peran penting yaitu mereka membuat fondasi untuk pemrograman. Demikian pula, fungsionalitas Solidity juga tidak lengkap tanpa menggunakan operator. Operator memungkinkan pengguna untuk melakukan operasi yang berbeda pada operan. Solidity mendukung jenis operator berikut berdasarkan fungsinya.
 
 1.	Operator Aritmatika
+
 2.	Operator Relasional
+
 3.	Operator Logika
+
 4.	Operator Bitwise
+
 5.	Operator penugasan
+
 6.	Operator Bersyarat
+
 
 -	Function Modifier
 Modifier adalah kode yang dapat dijalankan sebelum dan/atau setelah pemanggilan fungsi.
@@ -542,8 +557,11 @@ Modifier adalah kode yang dapat dijalankan sebelum dan/atau setelah pemanggilan 
 Modifier dapat digunakan untuk:
 
 •	Batasi akses
+
 •	Validasi masukan
+
 •	Waspada terhadap peretasan reentrancy
+
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
