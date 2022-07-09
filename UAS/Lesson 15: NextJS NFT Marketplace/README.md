@@ -1,3 +1,15 @@
+## Hardhat-nft-marketplace-fcc setup
+![image](https://user-images.githubusercontent.com/100683960/178107233-edb0724b-e103-4449-8beb-6f3100dd4e83.png)
+
+## Hardhat-nft-marketplace-fcc contracts
+![image](https://user-images.githubusercontent.com/100683960/178107238-b6d2382e-0c81-4936-a3dd-30bb9ccd5e23.png)
+
+## Hardhat-nft-marketplace-fcc Deploy
+![image](https://user-images.githubusercontent.com/100683960/178107243-45e86ce4-1c7b-4ac0-ab8e-ade5e91099c6.png)
+
+## Hardhat-nft-marketplace-fcc unit test
+![image](https://user-images.githubusercontent.com/100683960/178107250-30a9197e-b114-4acb-aa72-3ba722a5a4ae.png)
+
 # Hardhat NFT Marketplace 
 
 <br/>
