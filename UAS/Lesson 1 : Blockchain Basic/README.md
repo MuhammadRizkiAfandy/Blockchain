@@ -1,5 +1,7 @@
 #Lesson 1 : Blockchain basic
+
 ##What is Blockchain?
+
 ###Satoshi Nakamoto
 Satoshi Nakamoto adalah nama yang digunakan oleh orang atau orang yang diduga sebagai pseudonim  yang mengembangkan bitcoin , menulis buku putih bitcoin , dan membuat serta menerapkan implementasi referensi asli bitcoin . 
 ###Pengembangan bitcoin
