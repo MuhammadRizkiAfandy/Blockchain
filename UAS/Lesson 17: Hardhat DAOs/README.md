@@ -1,3 +1,22 @@
+## Contract DAO
+![image](https://user-images.githubusercontent.com/100683960/178107559-4dacb578-f448-44da-a69f-8abaa6993ba6.png)
+
+## •	Pengertian DAO
+DAO atau “Decentralized Autonomous Organizations”adalah istilah  untuk menggambarkan grup apapun yang diatur oleh aturan yang transparan, biasanya ditemukan dalam blockchain atau smart contract.
+
+## •	Cara kerja DAO
+![image](https://user-images.githubusercontent.com/100683960/178107598-b8365010-043f-4af3-b495-77fa36a4c52d.png)
+
+Aturan DAO ditetapkan oleh tim inti anggota komunitas melalui penggunaan smart contract. smart contract ini menjabarkan kerangka dasar yang digunakan DAO untuk beroperasi. Mereka sangat terlihat, dapat diverifikasi, dan dapat diaudit secara publik sehingga setiap anggota potensial dapat sepenuhnya memahami bagaimana protokol berfungsi di setiap langkah.
+
+Setelah aturan ini secara resmi ditulis ke dalam blockchain, langkah selanjutnya adalah seputar pendanaan: DAO perlu mencari cara untuk menerima dana dan bagaimana memberikan tata kelola.
+
+Ini biasanya dicapai melalui penerbitan token, di mana protokol menjual token untuk mengumpulkan dana dan mengisi perbendaharaan DAO.
+
+Sebagai imbalan atas fiat mereka, pemegang token diberikan hak suara tertentu, biasanya sebanding dengan kepemilikan mereka. Setelah pendanaan selesai, DAO siap untuk diterapkan.
+
+Pada titik ini, setelah kode didorong ke dalam produksi, itu tidak dapat lagi diubah dengan cara lain selain konsensus yang dicapai melalui pemungutan suara anggota. Artinya, tidak ada otoritas khusus yang dapat mengubah aturan DAO; sepenuhnya terserah pada komunitas pemegang token untuk memutuskan.
+
 # DAO Template
 
 <div id="top"></div>
