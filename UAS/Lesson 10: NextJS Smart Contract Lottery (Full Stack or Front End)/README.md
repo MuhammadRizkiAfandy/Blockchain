@@ -1,43 +1,6 @@
 # NextJS Smartcontract Lottery (Raffle) FCC
 
-This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course.
-
-*[⌨️ (16:34:07) Lesson 10: NextJS Smart Contract Lottery (Full Stack / Front End)](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=59647s)*
-
-[Full Repo](https://github.com/smartcontractkit/full-blockchain-solidity-course-js)
-
-![App](img/readme-app.png)
-
-[Example App here!](https://fancy-dream-3458.on.fleek.co/)
-[Example App on IPFS here!](ipfs://Qme4KacFx21y6pYuTC6veAU2usryXB3fNWqLkX3a2hMvDe)
-
-Built with ❤️ using:
-NextJS
-Solidity
-Chainlink
-Moralis
-web3uikit
-Ethers
-Hardhat
-IPFS
-
-- [NextJS Smartcontract Lottery (Raffle) FCC](#nextjs-smartcontract-lottery-raffle-fcc)
-- [Getting Started](#getting-started)
-  - [Requirements](#requirements)
-  - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-    - [Optional Gitpod](#optional-gitpod)
-  - [Formatting in VSCode](#formatting-in-vscode)
-- [Useage](#useage)
-  - [Testing](#testing)
-- [Deploying to IPFS](#deploying-to-ipfs)
-- [Deploy to IPFS using Fleek](#deploy-to-ipfs-using-fleek)
-- [Linting](#linting)
-- [Thank you!](#thank-you)
-
-This project is apart of the Hardhat FreeCodeCamp video.
-
-Video coming soon...
+![image](https://user-images.githubusercontent.com/101384498/178107252-7d1bb6a2-28ec-4eca-a92b-b4906f1c702e.png)
 
 # Getting Started
 
@@ -61,6 +24,8 @@ cd nextjs-smartcontract-lottery-fcc
 yarn
 yarn dev
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107311-8201f0ba-04d8-48a9-a8a8-ce68ae3dc4da.png)
+
 
 ## Typescript
 
@@ -69,6 +34,8 @@ If you want to get to typescript and you cloned the javascript version, just run
 ```
 git checkout typescript
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107321-f656f0ac-8d40-44ff-9a2e-59b6da7a7652.png)
+
 
 ### Optional Gitpod
 
@@ -101,6 +68,8 @@ cd hardhat-fund-me-fcc
 yarn 
 yarn hardhat node
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107331-58b8010b-7c7a-422e-8647-c3d7e9682bac.png)
+
 
 > You can read more about how to use that repo from it's [README.md](https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/README.md)
 
@@ -149,6 +118,8 @@ yarn build
 ```
 yarn next export
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107370-d1ed7c48-c292-4b43-9bf8-cf4ee59462a2.png)
+
 
 > Note: Some features of NextJS & Moralis are not static, if you're deviating from this repo, you might run into errors. 
 
@@ -160,7 +131,7 @@ yarn next export
 
 4. Copy the CID of the folder you pinned
 
-![IPFS](./img/readme-ipfs.png)
+![IPFS]![image](https://user-images.githubusercontent.com/101384498/178107394-def05398-ad74-4bd2-9ac7-9b51c145d459.png)
 
 5. Get [IPFS companion](https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch?hl=en) for your browser (or use [Brave Browser](https://brave.com/))
 
@@ -178,15 +149,7 @@ To check linting / code formatting:
 ```
 yarn lint
 ```
+![image](https://user-images.githubusercontent.com/101384498/178107408-23c5eb2e-dff8-4953-8c10-ca5e5f975772.png)
 
 
 # Thank you!
-
-If you appreciated this, feel free to follow me or donate!
-
-ETH/Polygon/Avalanche/etc Address: 0x9680201d9c93d65a3603d2088d125e955c73BD65
-
-[![Patrick Collins Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/PatrickAlphaC)
-[![Patrick Collins YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
-[![Patrick Collins Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/patrickalphac/)
-[![Patrick Collins Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@patrick.collins_58673/)
