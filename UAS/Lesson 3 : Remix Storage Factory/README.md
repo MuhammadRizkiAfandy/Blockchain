@@ -89,7 +89,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.5
 ```
 ### Basic Solidity: Interacting with other Contracts
 Untuk berinteraksi, Anda selalu membutuhkan: ABI + Alamat
--  [Apa itu ABI](https://docs.soliditylang.org/en/v0.8.14/abi-spec.html?highlight=abi) 
+-  [Apa itu ABI?](https://docs.soliditylang.org/en/v0.8.14/abi-spec.html?highlight=abi) 
 
 ### Basic Solidity: Interacting with other Contracts
 ####Inheritance
