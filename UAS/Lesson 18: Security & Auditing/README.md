@@ -1,3 +1,18 @@
+## Contract of hardhat security
+![image](https://user-images.githubusercontent.com/100683960/178107969-e6aa28f9-5cc6-434f-9a49-f4c8cce313f2.png)
+
+## Readiness Guide
+![image](https://user-images.githubusercontent.com/100683960/178107975-8e19956a-e3ee-4037-ab0f-663b4cf6d14b.png)
+
+## Slither
+![image](https://user-images.githubusercontent.com/100683960/178107980-36beea64-cc7a-40f1-839a-50ff0d9ffda2.png)
+
+## Solc-select
+![image](https://user-images.githubusercontent.com/100683960/178107986-5bf03737-ecf4-4da9-8b1b-856952d80997.png)
+
+## Fuzzing 
+Berdasarkan Wikipedia, Dalam pemrograman dan pengembangan perangkat lunak, pengujian fuzzing atau fuzz adalah teknik pengujian perangkat lunak otomatis yang melibatkan penyediaan data yang tidak valid, tidak terduga, atau acak sebagai input ke program komputer. Program ini kemudian dipantau untuk pengecualian seperti crash, gagal asersi kode built-in, atau kebocoran memori potensial. Biasanya, fuzzer digunakan untuk menguji program yang mengambil input terstruktur. Struktur ini ditentukan, misalnya, dalam format file atau protokol dan membedakan input yang valid dari yang tidak valid. Fuzzer yang efektif menghasilkan input semi-valid yang "cukup valid" karena tidak langsung ditolak oleh parser, tetapi menciptakan perilaku tak terduga lebih dalam di program dan "cukup tidak valid" untuk mengekspos kasus sudut yang belum ditangani dengan benar dengan.
+
 # Hardhat Security
 
 This is a section of the Javascript Blockchain/Smart Contract FreeCodeCamp Course. This part of the course is to help users understand basic security and some fundamentals of auditing.
