@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/100683960/178106729-b07a6ce5-1503-42b7-86f8-6cd27e70cf27.png)
+
+![image](https://user-images.githubusercontent.com/100683960/178106733-7c178e17-2745-4f09-92f6-b3b4accdec7c.png)
+
 # The Ultimate NFT Repo
 
 <br/>
